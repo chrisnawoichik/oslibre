@@ -1,0 +1,5 @@
+# BEGIN Wildcard 301 to quarterhedge.com
+RewriteCond %{HTTP_HOST} ^goldqcapital\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.goldqcapital\.com$
+RewriteRule ^(.*)$ "https\:\/\/quarterhedge\.com\/$1" [R=301,L]
+# END Wildcard 301 to quarterhedge.com
